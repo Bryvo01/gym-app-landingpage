@@ -49,7 +49,7 @@
         </div>
         <div>
           <h3 class="text-xl font-semibold text-stone-900">Contact Us</h3>
-          <p class="mt-2 text-base text-stone-600">hello@swoleymoley.com</G>
+          <p class="mt-2 text-base text-stone-600">hello@swoleymoley.com</p>
           <p class="mt-1 text-base text-stone-600">(555) 123-4567</p>
         </div>
       </div>
