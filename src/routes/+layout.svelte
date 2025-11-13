@@ -61,6 +61,26 @@
                     FAQs <i class="fa-solid fa-chevron-right text-xl pl-4" />
                 </p>
             </button>
+            <button
+                on:click={() => reroute("#pricing")}
+                class="border-none outline-none p-2 group duration-200 cursor-pointer text-left"
+            >
+                <p
+                    class="duration-200 group-hover:pl-2 poppins text-3xl font-semibold"
+                >
+                    Pricing <i class="fa-solid fa-chevron-right text-xl pl-4" />
+                </p>
+            </button>
+            <button
+                on:click={() => reroute("#contact")}
+                class="border-none outline-none p-2 group duration-200 cursor-pointer text-left"
+            >
+                <p
+                    class="duration-200 group-hover:pl-2 poppins text-3xl font-semibold"
+                >
+                    Contact Us <i class="fa-solid fa-chevron-right text-xl pl-4" />
+                </p>
+            </button>
         </div>
         <div class="flex flex-col items-center justify-center">
             <CtAs />

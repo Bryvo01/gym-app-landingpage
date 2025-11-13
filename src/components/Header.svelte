@@ -33,6 +33,16 @@
                 class="duration-200 hover:text-indigo-400 cursor-pointer"
                 >FAQs</a
             >
+            <a
+                href="#pricing"
+                class="duration-200 hover:text-indigo-400 cursor-pointer"
+                >Pricing</a
+            >
+            <a
+                href="#contact"
+                class="duration-200 hover:text-indigo-400 cursor-pointer"
+                >Contact Us</a
+            >
             <button class="specialBtn">
                 <p>Start free today</p>
             </button>
