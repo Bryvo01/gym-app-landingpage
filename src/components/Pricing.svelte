@@ -19,11 +19,11 @@
       </p>
       <div class="mt-6 space-y-6">
         <div class="rounded-lg bg-[#181b34] p-6 shadow-lg">
-          <h3 class="text-xl font-semibold text-stone-900">Basic</h3>
-          <p class="mt-2 text-3xl font-bold text-stone-900">$50<span class="text-lg font-medium text-stone-600">/mo</span></p>
-          <p class="mt-1 text-base text-stone-600">($500/year)</p>
-          <p class="mt-1 text-base text-stone-600">Unlimited Workouts</p>
-          <p class="mt-1 text-base text-stone-600">Access to all equipment</p>
+          <h3 class="text-xl sm:text-2xl md:text-3xl poppins">Basic</h3>
+          <p class="poppins text-base sm:text-lg md:text-xl">$50<span class="text-lg font-medium text-stone-600">/mo</span></p>
+          <p class="poppins text-base sm:text-lg md:text-xl">($500/year)</p>
+          <p class="poppins text-base sm:text-lg md:text-xl">Unlimited Workouts</p>
+          <p class="poppins text-base sm:text-lg md:text-xl">Access to all equipment</p>
         </div>
         <div class="rounded-lg bg-white p-6 shadow-lg ring-2 ring-indigo-400">
           <h3 class="text-xl font-semibold text-stone-900">Swoley Training</h3>
