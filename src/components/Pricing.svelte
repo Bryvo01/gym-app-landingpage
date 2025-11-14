@@ -18,7 +18,7 @@
         No Contracts!
       </p>
       <div class="mt-6 space-y-6">
-        <div class="rounded-lg bg-white p-6 shadow-lg">
+        <div class="rounded-lg bg-[#181b34] p-6 shadow-lg">
           <h3 class="text-xl font-semibold text-stone-900">Basic</h3>
           <p class="mt-2 text-3xl font-bold text-stone-900">$50<span class="text-lg font-medium text-stone-600">/mo</span></p>
           <p class="mt-1 text-base text-stone-600">($500/year)</p>
