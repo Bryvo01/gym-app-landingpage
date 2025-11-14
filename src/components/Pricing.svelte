@@ -41,7 +41,11 @@
           <p class="mt-1 text-base text-stone-600">Nutritional Consultations</p>
           <p class="mt-1 text-base text-stone-600">Weight Tracking</p>
           <p class="mt-1 text-base text-stone-600">Meal Prep</p>
-          <p class="location-column">
+        </div>
+      </div>
+    </div>
+
+    <div class="location-column">
       <div class="space-y-10">
         <div>
           <h3 class="text-2xl font-semibold text-stone-900">Find Us</h3>
