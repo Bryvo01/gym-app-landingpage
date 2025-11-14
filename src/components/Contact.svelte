@@ -91,8 +91,8 @@
 
       <div class="form-button h-full">
         <button
+          class="specialBtnDark flex h-full w-full min-h-[60px] items-center justify-center"
           type="submit"
-          class="flex h-full w-full min-h-[60px] items-center justify-center rounded-md bg-stone-900 px-3.5 py-10 text-lg font-semibold text-white shadow-sm hover:bg-stone-700 focus-visible:outline"
         >
           Send Message
         </button>
