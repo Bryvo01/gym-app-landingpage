@@ -2,36 +2,57 @@
   import SectionWrapper from './SectionWrapper.svelte';
 </script>
 
-<SectionWrapper id="pricing">
+<SectionWrapper id="pricing" bg="bg-stone-50">
   <div class="mb-12 text-center">
     <h2 class="text-3xl font-bold tracking-tight text-stone-900 sm:text-4xl">
-      Pricing
+      Pricing & Location
     </h2>
-    <p class="mt-4 text-2xl font-bold text-stone-700">
-      No Contracts!
-    </p>
-    <p class="mt-2 text-lg text-stone-600">
-      Simple, flexible plans to fit your life.
-    </p>
   </div>
 
-  <div class="mx-auto grid max-w-lg gap-8 lg:max-w-none lg:grid-cols-3">
-    <div class="rounded-lg bg-white p-8 shadow-lg">
-      <h3 class="text-xl font-semibold text-stone-900">Day Pass</h3>
-      <p class="mt-4 text-4xl font-bold text-stone-900">$15</p>
-      <p class="mt-3 text-base text-stone-600">Perfect for a single visit.</p>
+  <div class="grid grid-cols-1 gap-12 md:grid-cols-2 md:gap-16">
+
+    <div class="pricing-column">
+      <p class="text-2xl font-bold text-stone-700">
+        No Contracts!
+      </p>
+      <div class="mt-6 space-y-6">
+        <div class="rounded-lg bg-white p-6 shadow-lg">
+          <h3 class="text-xl font-semibold text-stone-900">Basic</h3>
+          <p class="mt-2 text-3xl font-bold text-stone-900">$50<span class="text-lg font-medium text-stone-600">/mo</span></p>
+          <p class="mt-1 text-base text-stone-600">($500/year)</p>
+        </div>
+        <div class="rounded-lg bg-white p-6 shadow-lg ring-2 ring-indigo-400">
+          <h3 class="text-xl font-semibold text-stone-900">Swoley Training</h3>
+          <p class="mt-2 text-3xl font-bold text-stone-900">$75<span class="text-lg font-medium text-stone-600">/mo</span></p>
+          <p class="mt-1 text-base text-stone-600">($750/year)</p>
+        </div>
+        <div class="rounded-lg bg-white p-6 shadow-lg">
+          <h3 class="text-xl font-semibold text-stone-900">Swoley Nutrition</h3>
+          <p class="mt-2 text-3xl font-bold text-stone-900">$100<span class="text-lg font-medium text-stone-600">/mo</span></p>
+          <p class="mt-1 text-base text-stone-600">($1000/year)</p>
+        </div>
+      </div>
     </div>
 
-    <div class="rounded-lg bg-white p-8 shadow-lg ring-2 ring-stone-900">
-      <h3 class="text-xl font-semibold text-stone-900">Monthly</h3>
-      <p class="mt-4 text-4xl font-bold text-stone-900">$50</p>
-      <p class="mt-3 text-base text-stone-600">Our most popular plan.</p>
+    <div class="location-column">
+      <div class="space-y-10">
+        <div>
+          <h3 class="text-2xl font-semibold text-stone-900">Find Us</h3>
+          <p class="mt-4 text-lg text-stone-600">123 Main St, Anytown, USA</p>
+          <a
+            href="#pricing"
+            class="mt-4 inline-block rounded-md border border-stone-900 px-3.5 py-2.5 text-sm font-semibold text-stone-900 shadow-sm hover:bg-stone-100 focus-visible:outline"
+          >
+            View Map
+          </a>
+        </div>
+        <div>
+          <h3 class="text-2xl font-semibold text-stone-900">Contact Us</h3>
+          <p class="mt-4 text-lg text-stone-600">hello@swoleymoley.com</p>
+          <p class="mt-2 text-lg text-stone-600">(555) 123-4567</p>
+        </div>
+      </div>
     </div>
 
-    <div class="rounded-lg bg-white p-8 shadow-lg">
-      <h3 class="text-xl font-semibold text-stone-900">Annual</h3>
-      <p class="mt-4 text-4xl font-bold text-stone-900">$500</p>
-      <p class="mt-3 text-base text-stone-600">Best value, 12 months for 10.</p>
-    </div>
   </div>
 </SectionWrapper>
