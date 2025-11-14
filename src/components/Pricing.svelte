@@ -53,7 +53,8 @@
         <div>
           <h3 class="text-2xl font-semibold text-stone-900">Find Us</h3>
           <p class="mt-4 text-lg text-stone-600">123 Main St</p>
-          <p class="mt-4 text-lg text-stone-600">City, ST 55555</p>
+          <p class="text-lg text-stone-600">City, ST 55555</p>
+          <div class="mt-10 space-y-10">
           <button class="specialBtnDark">
               <p class="text-base sm:text-lg md:text-xl">View Map &rarr;</p>
           </button>
