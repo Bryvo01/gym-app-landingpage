@@ -52,13 +52,11 @@
       <div class="mt-10 space-y-10">
         <div>
           <h3 class="text-2xl font-semibold text-stone-900">Find Us</h3>
-          <p class="mt-4 text-lg text-stone-600">123 Main St, Anytown, USA</p>
-          <a
-            href="#pricing"
-            class="mt-4 inline-block rounded-md border border-stone-900 px-3.5 py-2.5 text-sm font-semibold text-stone-900 shadow-sm hover:bg-stone-100 focus-visible:outline"
-          >
-            View Map
-          </a>
+          <p class="mt-4 text-lg text-stone-600">123 Main St</p>
+          <p class="mt-4 text-lg text-stone-600">City, ST 55555</p>
+          <button class="specialBtnDark">
+              <p class="text-base sm:text-lg md:text-xl">View Map &rarr;</p>
+          </button>
         </div>
         <div>
           <h3 class="text-2xl font-semibold text-stone-900">Contact Us</h3>
