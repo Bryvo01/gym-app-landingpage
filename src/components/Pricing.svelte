@@ -46,6 +46,9 @@
     </div>
 
     <div class="location-column">
+      <p class="text-2xl font-bold text-stone-700">
+        24/7 access to the equipment and the pool!
+      </p>
       <div class="space-y-10">
         <div>
           <h3 class="text-2xl font-semibold text-stone-900">Find Us</h3>
