@@ -1,5 +1,6 @@
 <script>
   import SectionWrapper from './SectionWrapper.svelte';
+  export let dark;
 </script>
 
 <SectionWrapper id="pricing" bg="bg-stone-50">
