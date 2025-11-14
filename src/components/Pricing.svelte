@@ -31,7 +31,7 @@
           </ul>
         </div>
 
-        <div class="rounded-lg bg-white p-6 shadow-lg ring-2 ring-indigo-400">
+        <div class="rounded-lg bg-[#181b34] p-6 text-white shadow-lg">
           <h3 class="text-xl font-semibold text-stone-900">Swoley Training</h3>
           <p class="mt-2 text-3xl font-bold text-stone-900">$75<span class="text-lg font-medium text-stone-600">/mo</span></p>
           <p class="mt-1 text-base text-stone-600">($750/year)</p>
@@ -80,7 +80,7 @@
           <p class="text-lg text-stone-600">(555) 123-4567</p>
           <div class="mt-6">
             <a href="#contact">
-              <button class="specialBtn">
+              <button class={"specialBtn " + (dark ? " bg-[#181b34]" : " ")}>
                 <p class="text-base sm:text-lg md:text-xl">Contact Us</p>
               </button>
             </a>
