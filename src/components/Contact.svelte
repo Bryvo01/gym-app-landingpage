@@ -31,9 +31,11 @@
 
 <SectionWrapper id="contact">
   <div class="mb-12 text-center">
-    <h2 class="text-3xl font-bold tracking-tight text-stone-900 sm:text-4xl">
+    <h3
+        class="text-4xl sm:text-5xl md:text-6xl max-w-[1000px] mx-auto w-full font-semibold text-center"
+    >
       Have a Question?
-    </h2>
+    </h3>
   </div>
 
   {#if formSubmitted}

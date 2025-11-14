@@ -4,9 +4,11 @@
 
 <SectionWrapper id="pricing" bg="bg-stone-50">
   <div class="mb-12 text-center">
-    <h2 class="text-3xl font-bold tracking-tight text-stone-900 sm:text-4xl">
+    <h3
+        class="text-4xl sm:text-5xl md:text-6xl max-w-[1000px] mx-auto w-full font-semibold text-center"
+    >
       Pricing & Location
-    </h2>
+    </h3>
   </div>
 
   <div class="grid grid-cols-1 gap-12 md:grid-cols-2 md:gap-16">
