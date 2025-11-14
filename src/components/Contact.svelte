@@ -94,7 +94,7 @@
           class="specialBtnDark flex h-full w-full min-h-[60px] items-center justify-center rounded-md bg-stone-900 px-3.5 py-10 text-lg font-semibold text-white shadow-sm hover:bg-stone-700 focus-visible:outline"
           type="submit"
         >
-          Send Message
+        <p class="text-base sm:text-lg md:text-xl lg:text-2xl">Send Message</p>
         </button>
       </div>
     </form>

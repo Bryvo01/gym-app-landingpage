@@ -60,9 +60,10 @@
           </button>
         </div>
         <div>
+          <div class="mt-10 space-y-10">
           <h3 class="text-2xl font-semibold text-stone-900">Contact Us</h3>
           <p class="mt-4 text-lg text-stone-600">hello@swoleymoley.com</p>
-          <p class="mt-2 text-lg text-stone-600">(555) 123-4567</p>
+          <p class="text-lg text-stone-600">(555) 123-4567</p>
         </div>
       </div>
     </div>
