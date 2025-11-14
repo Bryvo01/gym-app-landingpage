@@ -49,7 +49,7 @@
       <p class="text-2xl font-bold text-stone-700">
         24/7 access to the equipment and the pool!
       </p>
-      <div class="space-y-10">
+      <div class="mt-10 space-y-10">
         <div>
           <h3 class="text-2xl font-semibold text-stone-900">Find Us</h3>
           <p class="mt-4 text-lg text-stone-600">123 Main St, Anytown, USA</p>
