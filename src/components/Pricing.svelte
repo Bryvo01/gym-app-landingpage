@@ -18,9 +18,9 @@
         No Contracts!
       </p>
       <div class="mt-6 space-y-6">
-        <div class="rounded-lg bg-[#181b34] p-6 shadow-lg">
-          <h3 class="text-xl sm:text-2xl md:text-3xl poppins">Basic</h3>
-          <p class="poppins text-base sm:text-lg md:text-xl">$50<span class="text-lg font-medium text-stone-600">/mo</span></p>
+        <div class="py-14 md:py-20 flex flex-col gap-8 bg-[#181b34] text-white text-center items-center justify-center">
+          <h4 class="text-xl sm:text-2xl md:text-3xl poppins">Basic</h3>
+          <p class="poppins text-base sm:text-lg md:text-xl">$50<span class="text-indigo-400">/mo</span></p>
           <p class="poppins text-base sm:text-lg md:text-xl">($500/year)</p>
           <p class="poppins text-base sm:text-lg md:text-xl">Unlimited Workouts</p>
           <p class="poppins text-base sm:text-lg md:text-xl">Access to all equipment</p>
