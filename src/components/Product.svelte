@@ -12,7 +12,7 @@
       description:
         "Swoley moley ensures all users have the information they need to train safely and train effectively.",
       imgUrl: "assets/selection.png",
-      alt: "A smartphone showing the workout selection screen""
+      alt: "A smartphone showing the workout selection screen",
     },
     {
       featureList: [
@@ -24,7 +24,7 @@
       description:
         "Build you streaks and see your progress with our amazing tracking and analytics features.",
       imgUrl: "assets/training.png",
-      alt: "a smartphone showing a personalized training plan"
+      alt: "a smartphone showing a personalized training plan",
     },
     {
       featureList: [
@@ -36,7 +36,7 @@
       description:
         "Enter as much information about yourself as you desire to ensure all workouts are personalized to your every need.",
       imgUrl: "assets/goal.png",
-      alt: "a smartphone displaying a goal and progress tracking"
+      alt: "a smartphone displaying a goal and progress tracking",
     },
   ];
 </script>
