@@ -47,7 +47,7 @@
   >
     <div class="flex flex-col gap-2">
       <p class="opacity-60 text-base sm:text-lg md:text-xl text-center">
-        Start your lifetime <span class="text-indigo-600">gym streak</span> today
+        Start your lifetime <span class="text-indigo-800">gym streak</span> today
       </p>
       <h3
         class="text-4xl sm:text-5xl md:text-6xl max-w-[1000px] mx-auto w-full font-semibold text-center"
