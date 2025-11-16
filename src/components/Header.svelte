@@ -27,18 +27,31 @@
       >
       <a
         href="#reviews"
-        class="duration-200 hover:text-indigo-400 cursor-pointer">Reviews</a
+        class="duration-200 hover:text-indigo-400 cursor-pointer border-b-2 pb-1"
+        class:border-indigo-400={$activeSection === "reviews"}
+        class:border-transparent={$activeSection !== "reviews"}
+        on:click={() => handleClick("reviews")}>Reviews</a
       >
-      <a href="#faqs" class="duration-200 hover:text-indigo-400 cursor-pointer"
-        >FAQs</a
+      <a
+        href="#faqs"
+        class="duration-200 hover:text-indigo-400 cursor-pointer border-b-2 pb-1"
+        class:border-indigo-400={$activeSection === "faqs"}
+        class:border-transparent={$activeSection !== "faqs"}
+        on:click={() => handleClick("faqs")}>FAQs</a
       >
       <a
         href="#pricing"
-        class="duration-200 hover:text-indigo-400 cursor-pointer">Pricing</a
+        class="duration-200 hover:text-indigo-400 cursor-pointer border-b-2 pb-1"
+        class:border-indigo-400={$activeSection === "pricing"}
+        class:border-transparent={$activeSection !== "pricing"}
+        on:click={() => handleClick("pricing")}>Pricing</a
       >
       <a
         href="#contact"
-        class="duration-200 hover:text-indigo-400 cursor-pointer">Contact Us</a
+        class="duration-200 hover:text-indigo-400 cursor-pointer border-b-2 pb-1"
+        class:border-indigo-400={$activeSection === "contact"}
+        class:border-transparent={$activeSection !== "contact"}
+        on:click={() => handleClick("contact")}>Contact Us</a
       >
       <button class="specialBtn">
         <p>Start free today</p>
