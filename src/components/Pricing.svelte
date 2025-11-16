@@ -33,20 +33,24 @@
         </div>
 
         <div class="rounded-lg bg-[#181b34] p-6 text-white shadow-lg">
-          <h3 class="text-xl font-semibold text-stone-900">Swoley Training</h3>
-          <p class="mt-2 text-3xl font-bold text-stone-900">$75<span class="text-lg font-medium text-stone-600">/mo</span></p>
-          <p class="mt-1 text-base text-stone-600">($750/year)</p>
-          <ul class="mt-4 list-inside list-disc space-y-1 text-stone-600">
+          <div class="flex items-center justify-between">
+            <h3 class="text-xl font-semibold">Swoley Training</h3>
+            <span class="text-3xl font-bold">$75<span class="text-lg font-medium text-indigo-400">/mo</span></span>
+          </div>
+          <p class="mt-1 text-base text-stone-300">($750/year)</p>
+          <ul class="mt-4 list-inside list-disc space-y-1 text-stone-300">
             <li>Everything in the Basic Plan</li>
             <li>Personalized Training</li>
           </ul>
         </div>
 
         <div class="rounded-lg bg-white p-6 shadow-lg">
-          <h3 class="text-xl font-semibold text-stone-900">Swoley Nutrition</h3>
-          <p class="mt-2 text-3xl font-bold text-stone-900">$100<span class="text-lg font-medium text-stone-600">/mo</span></p>
-          <p class="mt-1 text-base text-stone-600">($1000/year)</p>
-          <ul class="mt-4 list-inside list-disc space-y-1 text-stone-600">
+          <div class="flex items-center justify-between">
+            <h3 class="text-xl font-semibold">Swoley Nutrition</h3>
+            <span class="text-3xl font-bold">$100<span class="text-lg font-medium text-indigo-400">/mo</span></span>
+          </div>
+          <p class="mt-1 text-base text-stone-300">($1000/year)</p>
+          <ul class="mt-4 list-inside list-disc space-y-1 text-stone-300">
             <li>Everything in the Training Plan</li>
             <li>Customized Meal Plans</li>
             <li>Nutritional Consultations</li>
