@@ -28,7 +28,7 @@
         on:click={() => ($openModal = false)}
         class="outline-none border-none"
       >
-        <i class="fa-solid fa-xmark text-2xl"></i>
+        <i class="fa-solid fa-xmark text-2xl" />
       </button>
     </div>
     <div class="flex flex-col gap-4 flex-1">
@@ -36,7 +36,11 @@
         on:click={() => reroute("#product")}
         class="border-none outline-none p-2 group duration-200 cursor-pointer text-left"
       >
-        <p class="duration-200 group-hover:pl-2 poppins text-3xl font-semibold">
+        <p
+          class="duration-200 group-hover:pl-2 poppins text-3xl font-semibold border-b-2"
+          class:border-indigo-400={$activeSection === "product"}
+          class:border-transparent={$activeSection !== "product"}
+        >
           Product <i class="fa-solid fa-chevron-right text-xl pl-4" />
         </p>
       </button>
@@ -44,7 +48,11 @@
         on:click={() => reroute("#reviews")}
         class="border-none outline-none p-2 group duration-200 cursor-pointer text-left"
       >
-        <p class="duration-200 group-hover:pl-2 poppins text-3xl font-semibold">
+        <p
+          class="duration-200 group-hover:pl-2 poppins text-3xl font-semibold border-b-2"
+          class:border-indigo-400={$activeSection === "reviews"}
+          class:border-transparent={$activeSection !== "reviews"}
+        >
           Reviews <i class="fa-solid fa-chevron-right text-xl pl-4" />
         </p>
       </button>
@@ -52,7 +60,11 @@
         on:click={() => reroute("#faqs")}
         class="border-none outline-none p-2 group duration-200 cursor-pointer text-left"
       >
-        <p class="duration-200 group-hover:pl-2 poppins text-3xl font-semibold">
+        <p
+          class="duration-200 group-hover:pl-2 poppins text-3xl font-semibold border-b-2"
+          class:border-indigo-400={$activeSection === "faqs"}
+          class:border-transparent={$activeSection !== "faqs"}
+        >
           FAQs <i class="fa-solid fa-chevron-right text-xl pl-4" />
         </p>
       </button>
@@ -60,7 +72,11 @@
         on:click={() => reroute("#pricing")}
         class="border-none outline-none p-2 group duration-200 cursor-pointer text-left"
       >
-        <p class="duration-200 group-hover:pl-2 poppins text-3xl font-semibold">
+        <p
+          class="duration-200 group-hover:pl-2 poppins text-3xl font-semibold border-b-2"
+          class:border-indigo-400={$activeSection === "pricing"}
+          class:border-transparent={$activeSection !== "pricing"}
+        >
           Pricing <i class="fa-solid fa-chevron-right text-xl pl-4" />
         </p>
       </button>
@@ -68,7 +84,11 @@
         on:click={() => reroute("#contact")}
         class="border-none outline-none p-2 group duration-200 cursor-pointer text-left"
       >
-        <p class="duration-200 group-hover:pl-2 poppins text-3xl font-semibold">
+        <p
+          class="duration-200 group-hover:pl-2 poppins text-3xl font-semibold border-b-2"
+          class:border-indigo-400={$activeSection === "contact"}
+          class:border-transparent={$activeSection !== "contact"}
+        >
           Contact Us <i class="fa-solid fa-chevron-right text-xl pl-4" />
         </p>
       </button>
@@ -89,10 +109,3 @@
 <slot />
 <Footer />
 <svelte:window bind:scrollY={y} bind:outerHeight />
-<!-- header
-hero
-product description
-user reviews
-faq
-conversion-
-footer -->
