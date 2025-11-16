@@ -44,7 +44,7 @@
           </ul>
         </div>
 
-        <div class="rounded-lg bg-[#181b34] p-6 text-white shadow-lg">
+        <div class="rounded-lg bg-white p-6 shadow-lg">
           <div class="flex items-center justify-between">
             <h3 class="text-xl font-semibold">Swoley Nutrition</h3>
             <span class="text-3xl font-bold">$100<span class="text-lg font-medium text-indigo-400">/mo</span></span>
@@ -63,7 +63,7 @@
     </div>
 
     <div class="location-column">
-      <p class="text-2xl font-bold text-stone-700 text-center">
+      <p class="text-2xl font-bold text-stone-700">
         24/7 access to the equipment and the pool!
       </p>
       <div class="mt-10 space-y-10">
