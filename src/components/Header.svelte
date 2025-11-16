@@ -20,7 +20,10 @@
     <nav class="hidden md:flex items-center gap-4 lg:gap-6">
       <a
         href="#product"
-        class="duration-200 hover:text-indigo-400 cursor-pointer">Product</a
+        class="duration-200 hover:text-indigo-400 cursor-pointer border-b-2 pb-1"
+        class:border-indigo-400={$activeSection === "product"}
+        class:border-transparent={$activeSection !== "product"}
+        on:click={() => handleClick("product")}>Product</a
       >
       <a
         href="#reviews"
