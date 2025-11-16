@@ -20,22 +20,22 @@
     <nav class="hidden md:flex items-center gap-4 lg:gap-6">
       <a
         href="#product"
-        class="duration-200 hover:text-indigo-400 cursor-pointer">Product</a
+        class="duration-200 hover:text-indigo-600 cursor-pointer">Product</a
       >
       <a
         href="#reviews"
-        class="duration-200 hover:text-indigo-400 cursor-pointer">Reviews</a
+        class="duration-200 hover:text-indigo-600 cursor-pointer">Reviews</a
       >
-      <a href="#faqs" class="duration-200 hover:text-indigo-400 cursor-pointer"
+      <a href="#faqs" class="duration-200 hover:text-indigo-600 cursor-pointer"
         >FAQs</a
       >
       <a
         href="#pricing"
-        class="duration-200 hover:text-indigo-400 cursor-pointer">Pricing</a
+        class="duration-200 hover:text-indigo-600 cursor-pointer">Pricing</a
       >
       <a
         href="#contact"
-        class="duration-200 hover:text-indigo-400 cursor-pointer">Contact Us</a
+        class="duration-200 hover:text-indigo-600 cursor-pointer">Contact Us</a
       >
       <button class="specialBtn">
         <p>Start free today</p>
