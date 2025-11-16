@@ -4,6 +4,8 @@
     import Hero from "../components/Hero.svelte";
     import Product from "../components/Product.svelte";
     import Reviews from "../components/Reviews.svelte";
+    import Pricing from "../components/Pricing.svelte";
+    import Contact from "../components/Contact.svelte";
 </script>
 
 <main class="flex flex-col">
@@ -12,4 +14,6 @@
     <Reviews />
     <FaQs />
     <Conversion />
+    <Pricing />
+    <Contact />
 </main>
