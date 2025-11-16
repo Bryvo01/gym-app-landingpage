@@ -81,3 +81,8 @@ button:focus-visible {
     opacity: 1;
   }
 }
+
+:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+  outline-offset: 2px;
+}
