@@ -1,7 +1,6 @@
 <script>
   import SectionWrapper from "./SectionWrapper.svelte";
 
-  // --- All your Svelte logic for the form lives here ---
   let name = "";
   let email = "";
   let message = "";

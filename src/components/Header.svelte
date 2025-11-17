@@ -1,5 +1,9 @@
 <script>
-  import { openModal } from "../store";
+  import { openModal, activeSection } from "../store";
+
+  function handleClick(section) {
+    $activeSection = section;
+  }
 </script>
 
 <header class="flex flex-col relative z-20">
@@ -15,28 +19,55 @@
       on:click={() => ($openModal = true)}
       class="md:hidden grid place-items-center"
     >
-      <i class="fa-solid fa-bars"></i>
+      <i class="fa-solid fa-bars" />
     </button>
     <nav class="hidden md:flex items-center gap-4 lg:gap-6">
       <a
         href="#product"
-        class="duration-200 hover:text-indigo-600 cursor-pointer">Product</a
+        class="duration-200 hover:text-indigo-600 cursor-pointer border-b-2 pb-1"
+        class:border-indigo-600={$activeSection === "product"}
+        class:border-transparent={$activeSection !== "product"}
+        on:click={() => handleClick("product")}
       >
+        Product
+      </a>
       <a
         href="#reviews"
-        class="duration-200 hover:text-indigo-600 cursor-pointer">Reviews</a
+        class="duration-200 hover:text-indigo-600 cursor-pointer border-b-2 pb-1"
+        class:border-indigo-600={$activeSection === "reviews"}
+        class:border-transparent={$activeSection !== "reviews"}
+        on:click={() => handleClick("reviews")}
       >
-      <a href="#faqs" class="duration-200 hover:text-indigo-600 cursor-pointer"
-        >FAQs</a
+        Reviews
+      </a>
+      <a
+        href="#faqs"
+        class="duration-200 hover:text-indigo-600 cursor-pointer border-b-2 pb-1"
+        class:border-indigo-600={$activeSection === "faqs"}
+        class:border-transparent={$activeSection !== "faqs"}
+        on:click={() => handleClick("faqs")}
       >
+        FAQs
+      </a>
       <a
         href="#pricing"
-        class="duration-200 hover:text-indigo-600 cursor-pointer">Pricing</a
+        class="duration-200 hover:text-indigo-600 cursor-pointer border-b-2 pb-1"
+        class:border-indigo-600={$activeSection === "pricing"}
+        class:border-transparent={$activeSection !== "pricing"}
+        on:click={() => handleClick("pricing")}
       >
+        Pricing
+      </a>
       <a
         href="#contact"
-        class="duration-200 hover:text-indigo-600 cursor-pointer">Contact Us</a
+        class="duration-200 hover:text-indigo-600 cursor-pointer border-b-2 pb-1"
+        class:border-indigo-600={$activeSection === "contact"}
+        class:border-transparent={$activeSection !== "contact"}
+        on:click={() => handleClick("contact")}
       >
+        Contact Us
+      </a>
+
       <button class="specialBtn">
         <p>Start free today</p>
       </button>
